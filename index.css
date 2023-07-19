@@ -286,6 +286,7 @@ nav li a{
 footer{
     background-color: rgba(11, 2, 35, 1);
     color: white;
+    height: 400px;
 }
 .f1{
     display: flex;
@@ -358,4 +359,28 @@ font-size: 40px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+}
+.png{
+    width: 30px;
+    justify-content: space-around;
+    padding: 13px;
+}
+.img-div{
+    /* border: 2px solid white; */
+    width: 600px;
+    margin-left: 500px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.fp11{
+    margin-left: 450px;
+    /* border: 2px solid white; */
+    font-size: 12px;
+    margin-top: 30px;
+}
+.fp112{
+    margin-left: 500px;
+    margin-bottom: 100px;
 }
