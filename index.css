@@ -231,11 +231,10 @@ nav li a{
 /* section5 */
 .parent5{
     height: 550px;
-    /* border: 2px solid gray; */
+    border: 2px solid gray
     margin-top: 100px;
     background-color: rgba(255, 66, 165, 1);
     background-image: url(images/Group\ 14.png);
-    background-image:url(images/Group\ 14.png);
     background-size: 70%;
     background-repeat: no-repeat;
     display: flex;
@@ -290,8 +289,8 @@ footer{
 }
 .f1{
     display: flex;
-    width: 100vw;
-    /* border: 2px solid white; */
+    width: 1345px;
+    /* border: 2px solid rgb(145, 16, 16);  */
     justify-content: center;
     padding-top: 70px;
     gap: 15px;
