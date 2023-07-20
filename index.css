@@ -13,7 +13,7 @@ header{
     padding-left: 200px;
     padding-bottom: 40px;
     padding-top: 30px;
-    height: 50px;
+    height: 40px;
 }
 nav{
     display: flex;
@@ -116,12 +116,12 @@ nav li a{
     height: 630px;
 }
 .play{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
     margin-bottom: 10px;
 }
 .goat{
-    font-size: 50px;
+    font-size: 80px;
     margin-bottom: 20px;
     font-weight: 800;
     
@@ -203,6 +203,7 @@ nav li a{
 .card-image{
     width: 250px;
     margin-bottom: 10px;
+    
 }
 .online{
     font-size: 35px;
@@ -212,6 +213,7 @@ nav li a{
     color: rgb(83, 83, 83);
     font-size: 14px;
     font-weight: 500;
+    padding: 6px;
 }
 
 /* section 4 */
@@ -269,6 +271,7 @@ nav li a{
     /* border: 2px solid blue; */
     width: 600px;
     height: 450px;
+    text-align: left;
     color: white;
     margin-left: 100px;
     margin-top: 100px;
@@ -421,4 +424,98 @@ line-height: normal;
 .fp112{
     margin-left: 500px;
     margin-bottom: 100px;
+}
+
+
+/* for mobile phone */
+
+@media screen and (max-width: 576px) {
+    .header-div{
+        flex-direction: column;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .header-top{
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    nav{
+        height: 200px;
+    
+    }
+    .goat{
+        margin-left: 0px;
+        padding: 0px;
+        font-size: 50px;
+    }
+    .play{
+        font-size: 30px;
+    }
+    .gchild1{
+        margin-left: 180px;
+        margin-bottom: 0px;
+    }
+    .parent1{
+        flex-direction: column-reverse;
+        height: 780px;
+    }
+    .img1{
+        width: 280px;
+        height: 250px;
+        margin-left: 150px;
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+    .parent2{
+        flex-direction: column;
+        height: 500px;
+    }
+    .img2{
+        width: 350px;
+        margin-left: 100px;
+    }
+    .child202{
+        max-width: 300px;
+        margin-left: 140px;
+        text-align: center;
+    }
+    .child301{
+        width: 300px;
+        margin-left: 130px;
+        margin-top: 150px;
+        margin-bottom: 00px;
+    }
+    .parent3{
+        flex-direction: column;
+        height: 1500px;
+        margin-left: 165px;
+        margin-top: 00px;
+        width: 300px;
+    }
+    .parent4{
+        flex-direction: column;
+        margin-top: 220px;
+    }
+    .child401{
+        margin-bottom: 80px;
+        margin-top: 0px;
+        margin-bottom: 70px;
+        margin-left: 20px;
+        width: 100vw;
+    }
+    .captain{
+        width: 200px;
+        height: 260px;
+        margin-left: 200px;
+    }
+    .female{
+        width: 120px;
+        margin-left: 150px;
+        margin-top: 120px;
+    }
+    .parent5{
+        flex-direction: column;
+        display: none;
+    }
+   
 }
