@@ -10,7 +10,9 @@
 }
 header{
     background-color: rgb(238, 233, 233);
-    padding: 30px 240px;
+    padding-left: 200px;
+    padding-bottom: 40px;
+    padding-top: 30px;
     height: 50px;
 }
 nav{
@@ -23,7 +25,6 @@ nav>ul{
 }
 nav li{
     list-style: none;
-    margin-right: 20px;
 }
 nav li a{
     text-decoration: none;
@@ -52,6 +53,28 @@ nav li a{
 .span1{
     color:rgba(249, 72, 178, 1);
 }
+.header-top{
+    /* border: 1px solid black; */
+    width: 600px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.hd-logo{
+    background-color:rgb(196, 195, 195);
+    width: 180px;
+    height: 28px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fst-ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 
 /* main section 1 */
 .child1{
@@ -229,9 +252,10 @@ nav li a{
 }
 
 /* section5 */
+
 .parent5{
     height: 550px;
-    border: 2px solid gray
+    /* border: 2px solid gray */
     margin-top: 100px;
     background-color: rgba(255, 66, 165, 1);
     background-image: url(images/Group\ 14.png);
@@ -240,6 +264,7 @@ nav li a{
     display: flex;
     justify-content: space-around;
 }
+
 .child501{
     /* border: 2px solid blue; */
     width: 600px;
