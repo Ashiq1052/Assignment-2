@@ -335,14 +335,24 @@ footer{
 }
 .btn5{
     border-radius: 30px;
-    width: 220px;
-    height: 80px;
+    width: 230px;
+    height: 60px;
     border: none;
-    font-size: 20px;
-    align-items: center;
+    font-size: 15px;
     font-weight: 600;
     font-size: 15px;
-    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.btn5:hover{
+    border:1px solid rgb(240, 61, 120);
+}
+.btn-txt:hover{
+    color: rgb(240, 61, 120);
+}
+.btn-txt{
+    color: rgb(31, 30, 30);
+    padding: 17px;
 }
 .last{
     height: 400px;
@@ -353,12 +363,16 @@ footer{
 }
 .last1{
     margin-bottom: 50px;
-    margin-left: 90px;
+    margin-left: 20px;
     /* border: 2px solid black; */
+    display: flex;
     justify-content: space-around;
 }
 .last2{
-    margin-left: 200px;
+    margin-left: 30px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-around;
     /* border: 2px solid black; */
 }
 .goat{
